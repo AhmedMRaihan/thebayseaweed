@@ -1,3 +1,3 @@
 # thebayseaweed
 
-First commit with public website and GNU AFFERO license
+First commit with public website and GNU AFFERO license.
