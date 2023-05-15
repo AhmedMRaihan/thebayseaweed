@@ -69,7 +69,7 @@
 }
 
 @media (max-width: 991.98px) {
-    .navbar-dark .navbar-nav .nav-link  {
+    .navbar-dark .navbar-nav .nav-link {
         padding: 10px;
     }
 }
@@ -176,6 +176,45 @@
     opacity: 0;
 } */
 
+.team_card {
+    position: relative;
+}
+
+.team_card .lg_team_description {
+    position: absolute;
+    width: 100%;
+    background-color: rgba(52, 173, 84, .85);
+    bottom: 0px;
+    opacity: 0;
+    transition: .5s;
+}
+
+.sm_team_description {
+    position: absolute;
+    width: 100%;
+    background-color: rgba(52, 173, 84, 1);
+    bottom: 0px;
+}
+
+.team_card .sm_team_description {
+    transition: .5s;
+}
+
+.team_card .lg_team_description {
+    transition: .9s;
+}
+
+.team_card:hover .sm_team_description {
+    opacity: 0;
+}
+
+.team_card:hover .lg_team_description {
+    opacity: 1;
+    
+}
+
+
+
 .product-carousel::after {
     position: absolute;
     content: "";
@@ -197,7 +236,7 @@
 }
 
 .product-carousel .owl-nav .owl-prev,
-.product-carousel .owl-nav .owl-next{
+.product-carousel .owl-nav .owl-next {
     position: relative;
     width: 55px;
     height: 45px;
@@ -289,38 +328,44 @@
 
 /* Dropdown Button */
 
-  
-  /* The container <div> - needed to position the dropdown content */
-  .dropdown {
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
     position: relative;
-  }
-  
-  /* Dropdown Content (Hidden by Default) */
-  .dropdown-content {
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
     display: none;
     position: absolute;
     background-color: #f1f1f1;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 2;
-  }
-  
-  /* Links inside the dropdown */
-  .dropdown-content a {
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-  }
-  
-  /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {background-color: #ddd;}
-  
-  /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {display: block;}
-  
-  /* Change the background color of the dropdown button when the dropdown content is shown */
-  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
 
 @media (min-width: 991.98px) {
     .bg-footer {
