@@ -385,3 +385,8 @@
 }
 
 /*GLOBAL CSS*/
+
+.banner_img {
+    height: 100%;
+    height: 500px;
+}
