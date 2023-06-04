@@ -4,6 +4,7 @@
     --secondary: #FF9933;
     --light: #F6FFF2;
     --dark: #263A4F;
+    --oceanblue : #0dcaf0;
 }
 
 .btn {
@@ -65,7 +66,7 @@
 
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
-    background: var(--secondary);
+    background: var(--oceanblue);
 }
 
 @media (max-width: 991.98px) {
@@ -251,7 +252,7 @@
 
 .product-carousel .owl-nav .owl-prev:hover,
 .product-carousel .owl-nav .owl-next:hover {
-    color: var(--secondary);
+    color: var(--oceanblue);
 }
 
 .bg-testimonial {
